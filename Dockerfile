@@ -1,6 +1,6 @@
 FROM python:3.9
 
-WORKDIR /app
+WORKDIR /app/backen/
 
 COPY requirements.txt /app/backend
 RUN pip install -r requirements.txt
